@@ -67,3 +67,26 @@ extension UITableView {
         }
     }
 }
+
+
+// MARK: - COLORS
+
+extension UIColor {
+    
+    static let bgColor = #colorLiteral(red: 0.1247409234, green: 0.1248249862, blue: 0.1444095689, alpha: 1)
+    static let fgColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    
+}
+
+
+// MARK: - Nav Bar
+
+extension UINavigationController {
+    
+    func configureNavigationBar() {
+        navigationBar.prefersLargeTitles = true
+        navigationBar.barStyle = .black
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+    }
+    
+}

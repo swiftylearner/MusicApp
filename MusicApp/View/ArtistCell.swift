@@ -20,6 +20,7 @@ class ArtistCell: UITableViewCell, IdentifiableCell {
     
     private let label:UILabel = {
         let label = UILabel()
+        label.textColor = .fgColor
         label.configure()
         return label
     }()
@@ -37,7 +38,6 @@ class ArtistCell: UITableViewCell, IdentifiableCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        accessoryType = .disclosureIndicator
         configueUI()
     }
     
@@ -50,6 +50,7 @@ class ArtistCell: UITableViewCell, IdentifiableCell {
     
     private func configueUI() {
         let screen = UIScreen.main.bounds
+        backgroundColor = .bgColor
         
         let stackView = UIStackView(arrangedSubviews: [coverImage,label])
         stackView.translatesAutoresizingMaskIntoConstraints = false

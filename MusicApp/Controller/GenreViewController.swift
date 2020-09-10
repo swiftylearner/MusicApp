@@ -16,7 +16,10 @@ class GenreViewController: UITableViewController {
         super.viewDidLoad()
         configureTableView()
         loadGenre()
-        configureNavigationBar()
+        
+        navigationController?.configureNavigationBar()
+        self.title = "Genre"
+        
     }
     
     
@@ -27,13 +30,8 @@ class GenreViewController: UITableViewController {
     }
     
     
-    private func configureNavigationBar() {
-        navigationItem.title = "Genre"
-        navigationController?.navigationBar.prefersLargeTitles = true
-    }
-    
-
     private func configureTableView() {
+        tableView.backgroundColor = .bgColor
         tableView.register(GenreCell.self, forCellReuseIdentifier: GenreCell.identifier)
     }
     
@@ -43,6 +41,8 @@ class GenreViewController: UITableViewController {
         artistVC.genre = genre
         navigationController?.pushViewController(artistVC, animated: true)
     }
+    
+
 
 }
 

@@ -21,8 +21,10 @@ class ArtistController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        configureNavigationBar()
         configureTableView()
+        
+        self.title = "Artist"
+        navigationController?.configureNavigationBar()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -35,16 +37,12 @@ class ArtistController: UITableViewController {
     }
     
     // MARK: - Helper
-    
-    private func configureNavigationBar() {
-        let genreName = genre?.name ?? ""
-        navigationItem.title =  genreName + " Artist"
-    }
-    
-    
+        
     private func configureTableView() {
+        tableView.backgroundColor = .bgColor
         tableView.register(ArtistCell.self, forCellReuseIdentifier: ArtistCell.identifier)
     }
+    
     
    
 }

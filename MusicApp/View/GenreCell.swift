@@ -20,6 +20,7 @@ class GenreCell: UITableViewCell, IdentifiableCell {
     
     private let label:UILabel = {
         let label = UILabel()
+        label.textColor = .fgColor
         label.configure()
         return label
     }()
@@ -53,6 +54,7 @@ class GenreCell: UITableViewCell, IdentifiableCell {
     
     private func configueUI() {
         let screen = UIScreen.main.bounds
+        backgroundColor = .bgColor
         
         let stackView = UIStackView(arrangedSubviews: [coverImage,label])
         stackView.translatesAutoresizingMaskIntoConstraints = false
