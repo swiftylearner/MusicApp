@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "sprayground-yo-dj-poster-turntables_1_a6646900fbaef3d27423dfe713c1b88b.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

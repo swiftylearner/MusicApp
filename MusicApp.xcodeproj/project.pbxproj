@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		FA5AEAD925068A6200686377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAD825068A6200686377 /* AppDelegate.swift */; };
 		FA5AEADB25068A6200686377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEADA25068A6200686377 /* SceneDelegate.swift */; };
-		FA5AEADD25068A6200686377 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEADC25068A6200686377 /* ArtistViewController.swift */; };
+		FA5AEADD25068A6200686377 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEADC25068A6200686377 /* GenreViewController.swift */; };
 		FA5AEAE225068A6300686377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5AEAE125068A6300686377 /* Assets.xcassets */; };
 		FA5AEAE525068A6300686377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5AEAE325068A6300686377 /* LaunchScreen.storyboard */; };
+		FA5AEAF625068CEA00686377 /* GenreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAF525068CEA00686377 /* GenreCell.swift */; };
+		FA5AEAF825068D1E00686377 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAF725068D1E00686377 /* Protocol.swift */; };
+		FA5AEAFA250691EC00686377 /* ArtistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAF9250691EC00686377 /* ArtistController.swift */; };
+		FA5AEAFC25069B3A00686377 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAFB25069B3A00686377 /* Artist.swift */; };
+		FA5AEAFE2506A1D500686377 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEAFD2506A1D500686377 /* Extension.swift */; };
+		FAD2DC152507235400888DAB /* ArtistBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2DC142507235400888DAB /* ArtistBank.swift */; };
+		FAD2DC172507BFAC00888DAB /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2DC162507BFAC00888DAB /* Genre.swift */; };
+		FAD2DC1B25086B0900888DAB /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2DC1A25086B0900888DAB /* NetworkManger.swift */; };
+		FAD2DC1F25094B9900888DAB /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2DC1E25094B9900888DAB /* ArtistCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA5AEAD525068A6200686377 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5AEAD825068A6200686377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5AEADA25068A6200686377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA5AEADC25068A6200686377 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		FA5AEADC25068A6200686377 /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 		FA5AEAE125068A6300686377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5AEAE425068A6300686377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5AEAE625068A6300686377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5AEAF525068CEA00686377 /* GenreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCell.swift; sourceTree = "<group>"; };
+		FA5AEAF725068D1E00686377 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		FA5AEAF9250691EC00686377 /* ArtistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistController.swift; sourceTree = "<group>"; };
+		FA5AEAFB25069B3A00686377 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		FA5AEAFD2506A1D500686377 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FAD2DC142507235400888DAB /* ArtistBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistBank.swift; sourceTree = "<group>"; };
+		FAD2DC162507BFAC00888DAB /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		FAD2DC1A25086B0900888DAB /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		FAD2DC1E25094B9900888DAB /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 		FA5AEAD725068A6200686377 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				FAD2DC132507234200888DAB /* Helper */,
 				FA5AEAEF25068A8400686377 /* Utils */,
 				FA5AEAEC25068A8200686377 /* Model */,
 				FA5AEAED25068A8300686377 /* View */,
@@ -70,6 +89,8 @@
 		FA5AEAEC25068A8200686377 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA5AEAFB25069B3A00686377 /* Artist.swift */,
+				FAD2DC162507BFAC00888DAB /* Genre.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -77,6 +98,8 @@
 		FA5AEAED25068A8300686377 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA5AEAF525068CEA00686377 /* GenreCell.swift */,
+				FAD2DC1E25094B9900888DAB /* ArtistCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,7 +107,8 @@
 		FA5AEAEE25068A8400686377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FA5AEADC25068A6200686377 /* ArtistViewController.swift */,
+				FA5AEADC25068A6200686377 /* GenreViewController.swift */,
+				FA5AEAF9250691EC00686377 /* ArtistController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +116,8 @@
 		FA5AEAEF25068A8400686377 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FA5AEAF725068D1E00686377 /* Protocol.swift */,
+				FA5AEAFD2506A1D500686377 /* Extension.swift */,
 				FA5AEAF025068AAA00686377 /* Audio */,
 			);
 			path = Utils;
@@ -102,6 +128,15 @@
 			children = (
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		FAD2DC132507234200888DAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2DC142507235400888DAB /* ArtistBank.swift */,
+				FAD2DC1A25086B0900888DAB /* NetworkManger.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5AEADD25068A6200686377 /* ArtistViewController.swift in Sources */,
+				FAD2DC1F25094B9900888DAB /* ArtistCell.swift in Sources */,
+				FA5AEAFE2506A1D500686377 /* Extension.swift in Sources */,
+				FAD2DC152507235400888DAB /* ArtistBank.swift in Sources */,
+				FAD2DC172507BFAC00888DAB /* Genre.swift in Sources */,
+				FA5AEADD25068A6200686377 /* GenreViewController.swift in Sources */,
+				FAD2DC1B25086B0900888DAB /* NetworkManger.swift in Sources */,
 				FA5AEAD925068A6200686377 /* AppDelegate.swift in Sources */,
+				FA5AEAF625068CEA00686377 /* GenreCell.swift in Sources */,
+				FA5AEAFA250691EC00686377 /* ArtistController.swift in Sources */,
 				FA5AEADB25068A6200686377 /* SceneDelegate.swift in Sources */,
+				FA5AEAFC25069B3A00686377 /* Artist.swift in Sources */,
+				FA5AEAF825068D1E00686377 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
